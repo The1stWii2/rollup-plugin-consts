@@ -22,8 +22,6 @@
         "test": "node --test test/test.js && prettier . --check",
         "format": "prettier . --write"
     },
-    "repository": "NotWoods/rollup-plugin-consts",
-    "bugs": "https://github.com/NotWoods/rollup-plugin-consts/issues",
     "homepage": "https://github.com/NotWoods/rollup-plugin-consts#readme",
     "keywords": [
         "rollup",
@@ -38,7 +36,7 @@
     ],
     "license": "Apache-2.0",
     "peerDependencies": {
-        "rollup": ">=1.15.0 <4"
+        "rollup": ">=1.15.0"
     },
     "devDependencies": {
         "prettier": "~3.2.4",
